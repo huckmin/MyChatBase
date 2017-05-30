@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
     private void createSocket(){
         try {
             socket = IO.socket("https://chat-server-kkmin.c9users.io");
+                                //https://ide.c9.io/winprocsx/lab01
         } catch (URISyntaxException e){
             throw new RuntimeException(e);
         }
